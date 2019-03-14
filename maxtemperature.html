@@ -48,18 +48,15 @@
     <div class="row">
       <div class="col-lg-8"> 
         <div class="jumbotron jumbotron-fluid">
-          <h2>Summary: Latitude vs. X</h2>
+          <h2>Max Temperature</h2>
           <hr/>
-          <img class="pull-left mr-2 rounded"  style="margin-right: 20px" src="Resources/Images/CityLatitudeVsMaxTemperature.png"/>
+          <img  style="margin-bottom: 20px" src="Resources/Images/CityLatitudeVsMaxTemperature.png"/>
           <p >
-            The purpose of this project was to analyze how weather changes as you
-            get closer to the equator. To accomplish this analysis, we first pulled
-            data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
-            <br><br/>
-            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-            Factors we looked at include: tempurature, cloudiness, wind speed, and humidity. This site 
-            provide source data and visualization created part of the analysis, as well as explanations and 
-            descriptions of any trends and correlation witnessed.
+            As expected, the weather becomes sinificantly warmer as one approaches 
+            the equator ( 0 deg. Latitude). More interestingly, however, is the face the 
+            southern hemisphere tends to be warmer this time of the year than northern hemisphere.
+            This may be due to the tilt of the earth at the time of the year this data was gathered.
+
           </p>
         </div>
       </div>
@@ -72,7 +69,7 @@
           <div class="col-md-6 col-centered">
             <div class="img-container">
               <a href="maxtemperature.html" target="_self">
-                <img style="margin-bottom: 20px" src="Resources/Images/CityLatitudeVsMaxTemperature.png"
+                <img style="margin-bottom: 20px;border: 3px solid	#F08080" src="Resources/Images/CityLatitudeVsMaxTemperature.png"
                   class="img-fluid img-thumbnail" alt="City Latitude vs. Temperature Plot">
                 <div class="overlay">
                   <div class="text">Max Temperature</div>
@@ -100,7 +97,7 @@
                   alt="Latitude vs. Humidity Plot">
                 <div class="overlay">
                   <div class="text">Humidity</div>
-                </div>
+                </div> 
               </a>
             </div>
           </div>
@@ -112,7 +109,7 @@
                   alt="Latitude vs. Wind Speed Plot">
                 <div class="overlay">
                   <div class="text">Wind Speed</div>
-                </div>
+                </div> 
               </a>
             </div>
           </div>
